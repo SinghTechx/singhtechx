@@ -88,7 +88,7 @@ I'm **[`SinghCyber`](https://www.linkedin.com/in/bikramjeetx/)**, a Security Res
 
 </div>
 
-
+<br>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Updating%3A+Journey+to+Cybersecurity+Specialist" alt="Typing SVG" />
