@@ -150,7 +150,7 @@ classes: wide
            onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 0 14px rgba(74,222,128,0.25)';this.style.borderColor='rgba(74,222,128,0.45)'">
           <div style="font-size: 26px;">📱</div>
           <div style="text-align:left;">
-            <div style="font-size: 14px; font-weight:600; color:#4ade80;">Kubernetes (K8s)</div>
+            <div style="font-size: 14px; font-weight:600; color:#4ade80;">Learning Kubernetes (K8s)</div>
             <div style="font-size: 11.5px; color:#9ca3af;">Cloud-native & container attack paths</div>
           </div>
         </div>
@@ -204,7 +204,7 @@ classes: wide
   <section id="projects" style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">Projects 🚀</h2>
     <p style="margin: 0 0 10px; font-size: 13.5px; color:#9ca3af;">
-      I build and maintain realistic labs to practice full kill-chains, not just single vulnerabilities.
+      I build labs to practice full kill-chains, not just single vulnerabilities.
     </p>
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:6px;">
       <img src="https://img.shields.io/badge/Web%20Application%20Home%20Lab-8B0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Application Home Lab" />
@@ -473,7 +473,7 @@ classes: wide
   <section id="donate" style="margin-bottom: 18px; text-align:center;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">Support ⚡️</h2>
     <p style="margin:0 0 8px; font-size: 13px; color:#9ca3af;">
-      If you like the labs, write-ups, or tooling I share, you can support future builds here:
+      If you like the labs, write-ups, or tooling I share, you can support here:
     </p>
     <p>
       <a href="https://buymeacoffee.com/thesinghsec">
