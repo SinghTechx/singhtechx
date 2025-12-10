@@ -5,138 +5,276 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hacker Vibe Footer</title>
   <style>
-    /* Reset everything */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --neon-green: #00ff7f;
+      --neon-soft: #00ff7f99;
+      --bg-dark: #020617;
+      --bg-darker: #000000;
+      --border-neon: #00ff7f;
     }
 
-    /* Base background 
-    body {
-      background-color: #111;
-      font-family: 'Courier New', Courier, monospace;
-      color: #00ff00;
-    }*/ 
-
-    /* TEMPORARY: highlight any stray element above footer */
-    body > *:not(footer) {
-      background: none !important;
-      border: none !important;
-      box-shadow: none !important;
-    }
-
-    /* Footer styling */
-    footer {
-      background: #000;
-      color: #00ff00;
-      padding: 20px 0;
-      text-align: center;
-      border-top: 3px solid #00ff00;
-      box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    /* Base footer styling */
+    footer.hacker-footer {
+      background: radial-gradient(circle at top, #020617 0, #000 55%, #000 100%);
+      color: var(--neon-green);
+      padding: 18px 12px 20px;
+      border-top: 2px solid var(--border-neon);
+      box-shadow: 0 0 16px rgba(0, 255, 127, 0.65);
+      font-family: "Fira Code", "Courier New", monospace;
       position: relative;
       z-index: 10;
+      overflow: hidden;
     }
 
-    .footer-container {
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
       display: flex;
       flex-direction: column;
+      gap: 10px;
       align-items: center;
-      justify-content: center;
-      max-width: 1200px;
-      margin: 0 auto;
+      text-align: center;
+      position: relative;
     }
 
+    /* Top status line */
+    .footer-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0, 255, 127, 0.5);
+      background: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 10px rgba(0, 255, 127, 0.35);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--neon-green);
+      box-shadow: 0 0 8px var(--neon-green);
+      animation: pulseDot 1.8s ease-in-out infinite;
+    }
+
+    .status-label {
+      color: #e5ffe5;
+    }
+
+    .status-sub {
+      color: #9fe6b8;
+      opacity: 0.85;
+    }
+
+    /* Middle row: copyright + links */
+    .footer-main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin-top: 4px;
+    }
+
+    .copyright {
+      font-size: 13px;
+      color: #eaffea;
+      white-space: nowrap;
+    }
+
+    .copyright .brand {
+      font-weight: 600;
+      text-shadow: 0 0 8px var(--neon-green);
+    }
+
+    /* Blinking cursor */
+    .copyright::after {
+      content: '▌';
+      margin-left: 4px;
+      animation: blink 1s steps(1) infinite;
+    }
+
+    /* Neon links */
     .footer-links {
       display: flex;
-      gap: 20px;
-      margin-top: 10px;
-      animation: fadeInLinks 2s ease-in-out;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      font-size: 13px;
     }
 
     .neon-link {
-      color: #00ff00;
+      color: var(--neon-green);
       text-decoration: none;
-      font-weight: bold;
-      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
-      transition: text-shadow 0.3s ease, transform 0.3s ease;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0, 255, 127, 0.35);
+      background: rgba(0, 0, 0, 0.6);
+      text-shadow: 0 0 4px var(--neon-green), 0 0 8px var(--neon-soft);
+      transition:
+        text-shadow 0.25s ease,
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+    }
+
+    .neon-link span.icon {
+      font-size: 14px;
     }
 
     .neon-link:hover {
-      text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
-      transform: scale(1.1);
+      text-shadow: 0 0 12px var(--neon-green), 0 0 22px var(--neon-soft);
+      transform: translateY(-1px) scale(1.04);
+      border-color: var(--neon-green);
+      box-shadow: 0 0 18px rgba(0, 255, 127, 0.7);
+      background: rgba(0, 0, 0, 0.9);
     }
 
+    /* Bottom subtle scan line */
+    .footer-scanline {
+      position: absolute;
+      inset-inline: 0;
+      bottom: 0;
+      height: 1px;
+      background: linear-gradient(
+        90deg,
+        transparent 0,
+        rgba(0, 255, 127, 0.2) 30%,
+        rgba(0, 255, 127, 0.8) 50%,
+        rgba(0, 255, 127, 0.2) 70%,
+        transparent 100%
+      );
+      opacity: 0.8;
+      animation: scan 4s linear infinite;
+    }
+
+    /* Glitch-ish header text (kept subtle) */
     .neon-text {
-      font-size: 1.2em;
-      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
-      animation: glitch 1.5s infinite;
+      font-size: 1.05em;
+      text-shadow: 0 0 10px var(--neon-green), 0 0 22px var(--neon-soft);
+      animation: glitch 2.4s infinite;
     }
 
+    /* Animations */
     @keyframes glitch {
-      0%, 60%, 100% {
-        text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+      0%, 100% {
+        text-shadow: 0 0 6px var(--neon-green),
+                     0 0 12px var(--neon-soft);
         transform: translate(0, 0);
       }
-      20% {
-        text-shadow: 3px 0 5px #00ff00, -3px 0 5px #00ff00;
-        transform: translate(-5px, 0);
+      15% {
+        text-shadow: 2px 0 6px var(--neon-green),
+                     -2px 0 6px var(--neon-soft);
+        transform: translate(-1px, 0);
       }
-      40% {
-        text-shadow: -3px 0 5px #00ff00, 3px 0 5px #00ff00;
-        transform: translate(5px, 0);
+      30% {
+        text-shadow: -2px 0 6px var(--neon-green),
+                     2px 0 6px var(--neon-soft);
+        transform: translate(1px, 0);
       }
-      80% {
-        text-shadow: -3px 0 5px #00ff00, 3px 0 5px #00ff00;
-        transform: translate(-5px, 0);
+      60% {
+        text-shadow: 0 0 8px var(--neon-green),
+                     0 0 14px var(--neon-soft);
+        transform: translate(0, 0);
       }
-    }
-
-    @keyframes fadeInLinks {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Blinking cursor effect */
-    .copyright:after {
-      content: '|';
-      animation: blink 1s step-end infinite;
     }
 
     @keyframes blink {
-      50% { opacity: 0; }
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
     }
 
-    /* Remove all pseudo-elements anywhere */
-    *::before,
-    *::after {
-      content: none !important;
-      display: none !important;
+    @keyframes pulseDot {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 8px rgba(0, 255, 127, 0.8);
+      }
+      50% {
+        transform: scale(1.18);
+        box-shadow: 0 0 14px rgba(0, 255, 127, 1);
+      }
     }
 
+    @keyframes scan {
+      0% { transform: translateX(-40%); opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { transform: translateX(40%); opacity: 0.4; }
+    }
+
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      .neon-text,
+      .copyright::after,
+      .status-dot,
+      .footer-scanline {
+        animation: none !important;
+      }
+    }
+
+    /* Small screens */
+    @media (max-width: 600px) {
+      .footer-main {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .copyright {
+        white-space: normal;
+      }
+
+      .footer-links {
+        justify-content: center;
+      }
+    }
+
+    /* Hide Jekyll default footer if needed */
     footer.page__meta {
-  display: none !important;
+      display: none !important;
     }
   </style>
 </head>
 <body>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="footer-container">
-      <p class="copyright">
-        <span class="neon-text">©2026 Inside SinghCyber</span>
-      </p>
-      <div class="footer-links">
-        <a href="https://www.linkedin.com/in/bikramjeetx/" class="neon-link" target="_blank">LinkedIn</a>
-        <a href="https://github.com/thesinghsec" class="neon-link" target="_blank">GitHub</a>
+  <!-- Enhanced Footer -->
+  <footer class="hacker-footer">
+    <div class="footer-inner">
+
+      <!-- Status pill -->
+      <div class="footer-status">
+        <span class="status-dot"></span>
+        <span class="status-label">HACKER VIBE ONLINE</span>
+        <span class="status-sub">signal: strong</span>
       </div>
+
+      <!-- Main line -->
+      <div class="footer-main">
+        <p class="copyright">
+          <span class="neon-text">©2026</span>
+          <span class="brand">Inside SinghCyber</span>
+        </p>
+
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/bikramjeetx/" class="neon-link" target="_blank" rel="noreferrer">
+            <span class="icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/thesinghsec" class="neon-link" target="_blank" rel="noreferrer">
+            <span class="icon">🐱</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-scanline" aria-hidden="true"></div>
     </div>
   </footer>
 
