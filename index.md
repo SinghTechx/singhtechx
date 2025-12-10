@@ -80,7 +80,7 @@ I'm **[`SinghCyber`](https://www.linkedin.com/in/bikramjeetx/)**, a Security Res
     " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px #32cd3288, inset 0 0 15px #32cd3255';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px #32cd3233, inset 0 0 12px #32cd3222';">
       <div style="font-size: 34px;">📱</div>
       <b style="font-size: 17px; color: #32cd32;">Learning</b><br>
-      <sub style="color: #a9a9a9;">Mobile Pentesting</sub>
+      <sub style="color: #a9a9a9;">Kubernetes (K8)</sub>
     </td>
   </tr>
 </table>
