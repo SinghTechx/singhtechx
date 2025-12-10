@@ -504,5 +504,4 @@ classes: wide
       🌱 Constantly learning. Constantly breaking. Constantly improving.
     </p>
   </section>
-
 </div>
