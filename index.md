@@ -83,7 +83,7 @@ I'm **[`SinghCyber`](https://www.linkedin.com/in/bikramjeetx/)**, a Security Res
     onmouseout="this.style.transform='scale(1)'">
     <div style="font-size: 34px;">📱</div>
     <b style="font-size: 17px; color: #32cd32;">Learning</b><br>
-    <sub style="color: #a9a9a9;">Kubernetes (K8)</sub>
+    <sub style="color: #a9a9a9;">Kubernetes (K8s)</sub>
   </div>
 
 </div>
