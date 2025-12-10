@@ -40,20 +40,6 @@ I'm **[`SinghCyber`](https://www.linkedin.com/in/bikramjeetx/)**, a Security Res
       <b style="font-size: 17px; color: #00ffff;">Still Learning</b><br>
       <sub style="color: #a9a9a9;">Offensive Security</sub>
     </td>
-    <!-- Card 2 -->
-    <td align="center" width="230" style="
-      background: linear-gradient(145deg, #0c0c0c, #111);
-      border: 1px solid #ff00ff55;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 0 20px #ff00ff33, inset 0 0 12px #ff00ff22;
-      transition: all 0.3s ease;
-      transform: perspective(600px) rotateX(0deg) rotateY(0deg);
-    " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px #ff00ff88, inset 0 0 15px #ff00ff55';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px #ff00ff33, inset 0 0 12px #ff00ff22';">
-      <div style="font-size: 34px;">🧠</div>
-      <b style="font-size: 17px; color: #ff00ff;">Managing</b><br>
-      <sub style="color: #a9a9a9;">Content Creation</sub>
-    </td>
     <!-- Card 3 -->
     <td align="center" width="230" style="
       background: linear-gradient(145deg, #0c0c0c, #111);
