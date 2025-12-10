@@ -453,7 +453,7 @@ classes: wide
         <a href="https://github.com/thesinghsec/github-readme-stats">
           <img
             alt="TheSinghSec's GitHub stats"
-            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=TheSinghSec%27s%20GitHub%20Stats"
+            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=SinghCyber%27s%20GitHub%20Stats"
             loading="lazy">
         </a>
       </div>
