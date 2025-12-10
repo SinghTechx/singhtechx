@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "TheSinghSec"
+  name   : "CyberSingh"
   avatar : "/assets/images/profile.png"
   bio    : "My expertise lies in conducting targeted penetration tests across various environments, including web applications, APIs, network infrastructure and more."
   links:
