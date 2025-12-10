@@ -24,52 +24,70 @@ I'm **[`SinghCyber`](https://www.linkedin.com/in/bikramjeetx/)**, a Security Res
 
 <h2 align="left">Present Status 🧭</h2>
 
-<table align="center" style="border-collapse: separate; border-spacing: 18px;">
-  <tr>
-    <!-- Card 1 -->
-    <td align="center" width="230" style="
-      background: linear-gradient(145deg, #0c0c0c, #111);
-      border: 1px solid #00ffff55;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 0 20px #00ffff33, inset 0 0 12px #00ffff22;
-      transition: all 0.3s ease;
-      transform: perspective(600px) rotateX(0deg) rotateY(0deg);
-    " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px #00ffff88, inset 0 0 15px #00ffff55';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px #00ffff33, inset 0 0 12px #00ffff22';">
-      <div style="font-size: 34px;">🎯</div>
-      <b style="font-size: 17px; color: #00ffff;">Still Learning</b><br>
-      <sub style="color: #a9a9a9;">Offensive Security</sub>
-    </td>
-    <!-- Card 3 -->
-    <td align="center" width="230" style="
-      background: linear-gradient(145deg, #0c0c0c, #111);
-      border: 1px solid #1e90ff55;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 0 20px #1e90ff33, inset 0 0 12px #1e90ff22;
-      transition: all 0.3s ease;
-      transform: perspective(600px) rotateX(0deg) rotateY(0deg);
-    " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px #1e90ff88, inset 0 0 15px #1e90ff55';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px #1e90ff33, inset 0 0 12px #1e90ff22';">
-      <div style="font-size: 34px;">✍️</div>
-      <b style="font-size: 17px; color: #1e90ff;">Writing</b><br>
-      <sub style="color: #a9a9a9;">Blogs & Testing Methodologies</sub>
-    </td>
-    <!-- Card 4 -->
-    <td align="center" width="230" style="
-      background: linear-gradient(145deg, #0c0c0c, #111);
-      border: 1px solid #32cd3255;
-      border-radius: 18px;
-      padding: 22px;
-      box-shadow: 0 0 20px #32cd3233, inset 0 0 12px #32cd3222;
-      transition: all 0.3s ease;
-      transform: perspective(600px) rotateX(0deg) rotateY(0deg);
-    " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px #32cd3288, inset 0 0 15px #32cd3255';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px #32cd3233, inset 0 0 12px #32cd3222';">
-      <div style="font-size: 34px;">📱</div>
-      <b style="font-size: 17px; color: #32cd32;">Learning</b><br>
-      <sub style="color: #a9a9a9;">Kubernetes (K8)</sub>
-    </td>
-  </tr>
-</table>
+<div style="
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+">
+
+  <!-- Card -->
+  <div style="
+    flex: 1;
+    min-width: 250px;
+    background: linear-gradient(145deg, #0c0c0c, #111);
+    border: 1px solid #00ffff55;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 0 20px #00ffff33, inset 0 0 12px #00ffff22;
+    transition: all 0.3s ease;
+  " onmouseover="this.style.transform='scale(1.05)'"
+    onmouseout="this.style.transform='scale(1)'">
+    <div style="font-size: 34px;">🎯</div>
+    <b style="font-size: 17px; color: #00ffff;">Still Learning</b><br>
+    <sub style="color: #a9a9a9;">Offensive Security</sub>
+  </div>
+
+  <!-- Card -->
+  <div style="
+    flex: 1;
+    min-width: 250px;
+    background: linear-gradient(145deg, #0c0c0c, #111);
+    border: 1px solid #1e90ff55;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 0 20px #1e90ff33, inset 0 0 12px #1e90ff22;
+    transition: all 0.3s ease;
+  " onmouseover="this.style.transform='scale(1.05)'"
+    onmouseout="this.style.transform='scale(1)'">
+    <div style="font-size: 34px;">✍️</div>
+    <b style="font-size: 17px; color: #1e90ff;">Writing</b><br>
+    <sub style="color: #a9a9a9;">Blogs & Testing Methodologies</sub>
+  </div>
+
+  <!-- Card -->
+  <div style="
+    flex: 1;
+    min-width: 250px;
+    background: linear-gradient(145deg, #0c0c0c, #111);
+    border: 1px solid #32cd3255;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 0 20px #32cd3233, inset 0 0 12px #32cd3222;
+    transition: all 0.3s ease;
+  " onmouseover="this.style.transform='scale(1.05)'"
+    onmouseout="this.style.transform='scale(1)'">
+    <div style="font-size: 34px;">📱</div>
+    <b style="font-size: 17px; color: #32cd32;">Learning</b><br>
+    <sub style="color: #a9a9a9;">Kubernetes (K8)</sub>
+  </div>
+
+</div>
+
 
 
 <p align="center">
