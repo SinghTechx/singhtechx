@@ -6,23 +6,17 @@ layout: single
 author_profile: true
 classes: wide
 ---
-<!-- HERO TITLE -->
-<div align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=2F9F09&duration=2500&pause=1000&size=50&center=true&vCenter=true&height=60&width=650&lines=Hi!+I'm+SinghCyber+%3C3;Welcome+to+my+profile!"
-    alt="Title">
-</div>
+<!-- HERO + PRESENT STATUS WRAPPER -->
+<main id="main-content" style="max-width: 980px; margin: 0 auto; padding: 24px 16px 40px; box-sizing: border-box;">
 
-<!-- PAGE WRAPPER -->
-<div style="
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 24px 16px 40px;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-">
+  <!-- HERO TITLE -->
+  <div align="center" style="margin-bottom: 18px;">
+    <img
+      src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=2F9F09&duration=2500&pause=1000&size=50&center=true&vCenter=true&height=60&width=650&lines=Hi!+I'm+SinghCyber+%3C3;Welcome+to+my+profile!"
+      alt="Title">
+  </div>
 
-  <!-- INTRO + STATUS ROW -->
+  <!-- HERO + STATUS GRID -->
   <section style="
     display: grid;
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
@@ -63,7 +57,7 @@ classes: wide
           text-decoration:none;
           box-shadow:0 0 16px rgba(34,197,94,0.4);
         ">View Labs & Projects</a>
-        <a href="#security_standards" style="
+        <a href="/posts" style="
           padding: 8px 14px;
           border-radius: 999px;
           border:1px solid rgba(148,163,184,0.5);
@@ -71,7 +65,7 @@ classes: wide
           font-size: 13px;
           text-decoration:none;
           backdrop-filter: blur(4px);
-        ">See methodologies</a>
+        ">Read posts</a>
         <a href="mailto:contact@singhcyber.com" style="
           padding: 8px 14px;
           border-radius: 999px;
@@ -150,16 +144,16 @@ classes: wide
            onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 0 14px rgba(74,222,128,0.25)';this.style.borderColor='rgba(74,222,128,0.45)'">
           <div style="font-size: 26px;">📱</div>
           <div style="text-align:left;">
-            <div style="font-size: 14px; font-weight:600; color:#4ade80;">Learning Kubernetes (K8s)</div>
+            <div style="font-size: 14px; font-weight:600; color:#4ade80;">Kubernetes (K8s)</div>
             <div style="font-size: 11.5px; color:#9ca3af;">Cloud-native & container attack paths</div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <!-- Journey line -->
-  <div style="margin: 22px 0 10px;">
+  <div style="margin: 22px 0 26px;">
     <p align="center">
       <img
         src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2500&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Updating%3A+Journey+to+Cybersecurity+Specialist"
@@ -167,14 +161,12 @@ classes: wide
     </p>
   </div>
 
-  <hr style="border:none;border-top:1px solid rgba(55,65,81,0.9);margin:20px 0 26px;">
-
-  <!-- QUICK OVERVIEW STRIP -->
+  <!-- QUICK OVERVIEW PILL STRIP -->
   <section style="
     display:flex;
     flex-wrap:wrap;
     gap:10px;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
   ">
     <span style="
       padding:6px 12px;
@@ -189,7 +181,7 @@ classes: wide
       border:1px solid rgba(52,211,153,0.7);
       font-size:11.5px;
       color:#bbf7d0;
-    ">🌐 Web & API | 🖥 AD | ☁ Cloud</span>
+    ">🌐 Web & API · 🖥 AD · ☁ Cloud</span>
     <span style="
       padding:6px 12px;
       border-radius:999px;
@@ -199,20 +191,27 @@ classes: wide
     ">📚 Strong methodology, clear reporting</span>
   </section>
 
-
-  <!-- PROJECTS MOVED UP -->
-  <section id="projects" style="margin-bottom: 26px;">
+  <!-- PROJECTS (MOVED UP) -->
+  <section id="projects" style="margin-bottom: 30px;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">Projects 🚀</h2>
     <p style="margin: 0 0 10px; font-size: 13.5px; color:#9ca3af;">
-      I build labs to practice full kill-chains, not just single vulnerabilities.
+      I build and maintain realistic labs to practice full kill-chains, not just single vulnerabilities.
     </p>
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:6px;">
-      <img src="https://img.shields.io/badge/Web%20Application%20Home%20Lab-8B0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Application Home Lab" />
-      <img src="https://img.shields.io/badge/Active%20Directory%20Home%20Lab-004B23?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory Home Lab" />
-      <img src="https://img.shields.io/badge/GOAD%20on%20VMware-191970?style=for-the-badge&logo=vmware&logoColor=white" alt="GOAD on VMware" />
+      <div>
+        <img src="https://img.shields.io/badge/Web%20Application%20Home%20Lab-8B0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Application Home Lab" />
+        <p style="margin:4px 0 0;font-size:12px;color:#9ca3af;">Multi-app environment for end-to-end web and API testing.</p>
+      </div>
+      <div>
+        <img src="https://img.shields.io/badge/Active%20Directory%20Home%20Lab-004B23?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory Home Lab" />
+        <p style="margin:4px 0 0;font-size:12px;color:#9ca3af;">On-prem AD domain to practice internal, lateral movement & privesc.</p>
+      </div>
+      <div>
+        <img src="https://img.shields.io/badge/GOAD%20on%20VMware-191970?style=for-the-badge&logo=vmware&logoColor=white" alt="GOAD on VMware" />
+        <p style="margin:4px 0 0;font-size:12px;color:#9ca3af;">Graph of AD (GOAD) setup for realistic attack paths and BloodHound work.</p>
+      </div>
     </div>
   </section>
-
 
   <!-- SECURITY STANDARDS -->
   <section id="security_standards" style="margin-bottom: 26px;">
@@ -280,8 +279,7 @@ classes: wide
     </div>
   </section>
 
-
-  <!-- KNOWLEDGE – COLLAPSIBLE BIG STACK -->
+  <!-- KNOWLEDGE – COLLAPSIBLE -->
   <section id="knowledge_skills" style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 8px;">Knowledge ⚙️</h2>
     <p style="margin: 0 0 8px; font-size: 13.5px; color:#9ca3af;">
@@ -308,7 +306,7 @@ classes: wide
         <span style="font-size:11px; color:#9ca3af;">(Burp, AD tools, cloud, mobile, privesc & more)</span>
       </summary>
       <div style="margin-top: 12px; display:flex; flex-wrap:wrap; gap:10px;">
-        <!-- core stack -->
+        <!-- your existing giant tools badge list below -->
         <img class="badge" src="https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&labelColor=111827&logo=burp-suite&logoColor=FF6633" alt="Burp Suite" />
         <img class="badge" src="https://img.shields.io/badge/Metasploit-0D1117?style=for-the-badge&labelColor=111827&logo=metasploit&logoColor=00B7B7" alt="Metasploit" />
         <img class="badge" src="https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&labelColor=111827&logo=wireshark&logoColor=1E90FF" alt="Wireshark" />
@@ -319,7 +317,6 @@ classes: wide
         <img class="badge" src="https://img.shields.io/badge/Debian-0D1117?style=for-the-badge&labelColor=111827&logo=debian&logoColor=D70A53" alt="Debian" />
         <img class="badge" src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&labelColor=111827&logo=docker&logoColor=2496ED" alt="Docker" />
         <img class="badge" src="https://img.shields.io/badge/Kali%20Linux-0D1117?style=for-the-badge&labelColor=111827&logo=kalilinux&logoColor=557C94" alt="Kali Linux" />
-        <!-- recon / etc – all as you had -->
         <img class="badge" src="https://img.shields.io/badge/theHarvester-0D1117?style=for-the-badge&labelColor=111827&logo=hackaday&logoColor=00FF00" alt="theHarvester" />
         <img class="badge" src="https://img.shields.io/badge/Recon--ng-0D1117?style=for-the-badge&labelColor=111827&logo=hackaday&logoColor=00FF00" alt="Recon-ng" />
         <img class="badge" src="https://img.shields.io/badge/Shodan-0D1117?style=for-the-badge&labelColor=111827&logo=shodan&logoColor=FF0000" alt="Shodan" />
@@ -393,7 +390,6 @@ classes: wide
     </details>
   </section>
 
-
   <!-- CERTIFICATIONS -->
   <section style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 8px;">Certifications 🎓</h2>
@@ -403,7 +399,6 @@ classes: wide
       <img src="https://img.shields.io/badge/-CASA-2E8B57?style=for-the-badge&logo=owasp&logoColor=white" alt="CASA" />
     </div>
   </section>
-
 
   <!-- GITHUB STATS -->
   <section id="github_stats" style="margin-bottom: 26px;">
@@ -453,7 +448,7 @@ classes: wide
         <a href="https://github.com/thesinghsec/github-readme-stats">
           <img
             alt="TheSinghSec's GitHub stats"
-            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=SinghCyber%27s%20GitHub%20Stats"
+            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=TheSinghSec%27s%20GitHub%20Stats"
             loading="lazy">
         </a>
       </div>
@@ -468,12 +463,11 @@ classes: wide
     </div>
   </section>
 
-
   <!-- SUPPORT -->
   <section id="donate" style="margin-bottom: 18px; text-align:center;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">Support ⚡️</h2>
     <p style="margin:0 0 8px; font-size: 13px; color:#9ca3af;">
-      If you like the labs, write-ups, or tooling I share, you can support here:
+      If you like the labs, write-ups, or tooling I share, you can support future builds here:
     </p>
     <p>
       <a href="https://buymeacoffee.com/thesinghsec">
@@ -481,27 +475,4 @@ classes: wide
       </a>
     </p>
   </section>
-
-
-  <!-- QUOTE STRIP (no heavy JS, just glow) -->
-  <section style="margin-top: 10px; text-align:center;">
-    <div style="
-      display:inline-block;
-      padding: 10px 18px;
-      border-radius: 999px;
-      border:1px solid rgba(34,197,94,0.7);
-      box-shadow: 0 0 16px rgba(34,197,94,0.45);
-      background: radial-gradient(circle at top, rgba(22,163,74,0.28), rgba(15,23,42,0.95));
-      filter: drop-shadow(0 0 6px #22c55e);
-    ">
-      <img
-        src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=900&color=22C55E&center=true&vCenter=true&width=520&lines=%22Never+give+up.+Never+back+down.%22"
-        alt="Never give up. Never back down."
-        style="display:block; max-width:100%; height:auto;"
-      />
-    </div>
-    <p style="margin-top: 10px; font-size: 12px; color:#6b7280;">
-      🌱 Constantly learning. Constantly breaking. Constantly improving.
-    </p>
-  </section>
-</div>
+</main>
