@@ -41,19 +41,16 @@ classes: wide
         Hi there
         <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="22" height="22" alt="👋"/>
       </h2>
-
       <p style="margin: 8px 0 10px; line-height: 1.6; color: #e5e7eb; font-size: 14.8px;">
         I'm <strong><a href="https://www.linkedin.com/in/bikramjeetx/" target="_blank" style="color:#4ade80;text-decoration:none;">SinghCyber</a></strong>,
         a Security Researcher and aspiring Cybersecurity Specialist.
         I focus on realistic, goal-driven penetration tests across web applications, APIs,
         infrastructure, Active Directory environments and more.
       </p>
-
       <p style="margin: 6px 0 14px; line-height: 1.6; color: #9ca3af; font-size: 14.2px;">
         I combine automation with manual tradecraft to find complex issues, validate real risk,
         and help teams harden their environments instead of chasing noise.
       </p>
-
       <!-- CTAs -->
       <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top: 6px;">
         <a href="#projects" style="
@@ -66,7 +63,6 @@ classes: wide
           text-decoration:none;
           box-shadow:0 0 16px rgba(34,197,94,0.4);
         ">View Labs & Projects</a>
-
         <a href="#security_standards" style="
           padding: 8px 14px;
           border-radius: 999px;
@@ -76,7 +72,6 @@ classes: wide
           text-decoration:none;
           backdrop-filter: blur(4px);
         ">See methodologies</a>
-
         <a href="mailto:contact@singhcyber.com" style="
           padding: 8px 14px;
           border-radius: 999px;
@@ -87,7 +82,6 @@ classes: wide
         ">Contact</a>
       </div>
     </div>
-
     <!-- RIGHT: PRESENT STATUS -->
     <div style="
       background: radial-gradient(circle at top right, #020617, #020617 40%, #020617 100%);
@@ -98,13 +92,11 @@ classes: wide
       <h2 style="margin: 0 0 10px; font-size: 18px; color:#e5e7eb;">
         Present Status 🧭
       </h2>
-
       <div style="
         display:grid;
         grid-template-columns: 1fr;
         gap: 10px;
       ">
-
         <!-- Card 1 -->
         <div style="
           display:flex;
@@ -124,7 +116,6 @@ classes: wide
             <div style="font-size: 11.5px; color:#9ca3af;">Deeper tradecraft, adversary simulation</div>
           </div>
         </div>
-
         <!-- Card 2 -->
         <div style="
           display:flex;
@@ -144,7 +135,6 @@ classes: wide
             <div style="font-size: 11.5px; color:#9ca3af;">Blogs, playbooks & test plans</div>
           </div>
         </div>
-
         <!-- Card 3 -->
         <div style="
           display:flex;
@@ -167,7 +157,7 @@ classes: wide
       </div>
     </div>
   </section>
-
+  
   <!-- Journey line -->
   <div style="margin: 22px 0 10px;">
     <p align="center">
@@ -230,7 +220,6 @@ classes: wide
     <p style="margin: 0 0 8px; font-size: 13.5px; color:#9ca3af;">
       Engagements are mapped to well-known industry standards so findings connect directly to risk and controls.
     </p>
-
     <div style="
       border-radius: 14px;
       padding: 14px 14px 6px;
@@ -252,14 +241,12 @@ classes: wide
     </div>
   </section>
 
-
   <!-- SKILLS -->
   <section style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 8px;">Skills 🧠</h2>
     <p style="margin: 0 0 8px; font-size: 13.5px; color:#9ca3af;">
       Coverage from external surface to internal lateral movement, plus cloud and mobile.
     </p>
-
     <div style="
       border-radius: 14px;
       padding: 14px 14px 6px;
@@ -301,7 +288,6 @@ classes: wide
       Tooling changes, but the goal is the same: understand how a real attacker would pivot and persist,
       then help you close the gaps.
     </p>
-
     <details style="
       border-radius: 14px;
       border:1px solid rgba(148,163,184,0.6);
@@ -321,7 +307,6 @@ classes: wide
         <span>Show full offensive tooling stack</span>
         <span style="font-size:11px; color:#9ca3af;">(Burp, AD tools, cloud, mobile, privesc & more)</span>
       </summary>
-
       <div style="margin-top: 12px; display:flex; flex-wrap:wrap; gap:10px;">
         <!-- core stack -->
         <img class="badge" src="https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&labelColor=111827&logo=burp-suite&logoColor=FF6633" alt="Burp Suite" />
@@ -423,7 +408,6 @@ classes: wide
   <!-- GITHUB STATS -->
   <section id="github_stats" style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">GitHub Stats 👨‍💻</h2>
-
     <style>
       .gh-wrap {
         display: grid;
@@ -464,7 +448,6 @@ classes: wide
         transform: translateY(-2px);
       }
     </style>
-
     <div class="gh-wrap">
       <div class="gh-left-card">
         <a href="https://github.com/thesinghsec/github-readme-stats">
@@ -474,7 +457,6 @@ classes: wide
             loading="lazy">
         </a>
       </div>
-
       <div class="gh-card">
         <a href="https://git.io/streak-stats">
           <img
@@ -518,7 +500,6 @@ classes: wide
         style="display:block; max-width:100%; height:auto;"
       />
     </div>
-
     <p style="margin-top: 10px; font-size: 12px; color:#6b7280;">
       🌱 Constantly learning. Constantly breaking. Constantly improving.
     </p>
