@@ -10,7 +10,7 @@ classes: wide
 <!-- HERO TITLE -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=2F9F09&duration=2500&pause=1000&size=50&center=true&vCenter=true&height=60&width=650&lines=Hi!+I'm+SinghCyber+%3C3;Welcome+to+my+profile!"
+    src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=2F9F09&duration=2500&pause=1000&size=50&center=true&vCenter=true&height=60&width=650&lines=Hi!+I'm+UnixSingh+%3C3;Welcome+to+my+profile!"
     alt="Title">
 </div>
 
@@ -43,7 +43,7 @@ classes: wide
         <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="22" height="22" alt="👋"/>
       </h2>
       <p style="margin: 8px 0 10px; line-height: 1.6; color: #e5e7eb; font-size: 14.8px;">
-        I'm <strong><a href="https://www.linkedin.com/in/bikramjeetx/" target="_blank" style="color:#4ade80;text-decoration:none;">SinghCyber</a></strong>,
+        I'm <strong><a href="https://www.linkedin.com/in/bikramjeetx/" target="_blank" style="color:#4ade80;text-decoration:none;">UnixSingh</a></strong>,
         a Security Researcher and aspiring Cybersecurity Specialist.
         I focus on realistic, goal-driven penetration tests across web applications, APIs,
         infrastructure, Active Directory environments and more.
@@ -73,7 +73,7 @@ classes: wide
           text-decoration:none;
           backdrop-filter: blur(4px);
         ">See methodologies</a>
-        <a href="mailto:contact@singhcyber.com" style="
+        <a href="mailto:contact@UnixSingh.com" style="
           padding: 8px 14px;
           border-radius: 999px;
           border:1px dashed rgba(96,165,250,0.7);
@@ -453,8 +453,8 @@ classes: wide
       <div class="gh-left-card">
         <a href="https://github.com/thesinghsec/github-readme-stats">
           <img
-            alt="SinghCyber's GitHub stats"
-            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=SinghCyber%27s%20GitHub%20Stats"
+            alt="UnixSingh's GitHub stats"
+            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=UnixSingh%27s%20GitHub%20Stats"
             loading="lazy">
         </a>
       </div>
