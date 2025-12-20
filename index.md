@@ -133,7 +133,7 @@ classes: wide
           <div style="font-size: 26px;">✍️</div>
           <div style="text-align:left;">
             <div style="font-size: 14px; font-weight:600; color:#93c5fd;">Writing</div>
-            <div style="font-size: 11.5px; color:#9ca3af;">Blogs, Labs & test methodlogies</div>
+            <div style="font-size: 11.5px; color:#9ca3af;">Blogs, labs & test methodlogies</div>
           </div>
         </div>
         <!-- Card 3 -->
@@ -208,6 +208,7 @@ classes: wide
     </p>
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:6px;">
       <img src="https://img.shields.io/badge/Web%20Application%20Home%20Lab-8B0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Application Home Lab" />
+      <img src="https://img.shields.io/badge/API%20Hacking%20Home%20Lab-0A2540?style=for-the-badge&logo=postman&logoColor=white" alt="API Home Lab" />
       <img src="https://img.shields.io/badge/Active%20Directory%20Home%20Lab-004B23?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory Home Lab" />
       <img src="https://img.shields.io/badge/GOAD%20on%20VMware-191970?style=for-the-badge&logo=vmware&logoColor=white" alt="GOAD on VMware" />
     </div>
