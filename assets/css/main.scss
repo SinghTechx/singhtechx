@@ -2,29 +2,4 @@
 ---
 @import "minimal-mistakes";
 
-/* Hacker green */
-$hacker-green: #00ff9c;
 
-/* Default state: green */
-.site-title,
-.site-title:visited,
-.greedy-nav a,
-.greedy-nav a:visited,
-.archive__item-title a,
-.archive__item-title a:visited,
-.search__toggle {
-  color: $hacker-green;
-}
-
-/* Hover state: white */
-.site-title:hover,
-.greedy-nav a:hover,
-.archive__item-title a:hover,
-.search__toggle:hover {
-  color: #ffffff;
-}
-
-/* Keep underline green */
-.greedy-nav a::after {
-  background-color: $hacker-green;
-}
