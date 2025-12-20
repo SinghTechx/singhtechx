@@ -63,7 +63,7 @@ To understand Kubernetes easily, I broke it down into its core components.
 
 You do not manage containers directly in Kubernetes. You manage pods, and Kubernetes handles everything underneath.
 
-<img width="1127" height="874" alt="image" class="center-image" src="https://github.com/user-attachments/assets/1dd2a3d3-88ef-4441-8428-08b2194f5b3f" />
+<img width="700" height="500" alt="image" class="center-image" src="https://github.com/user-attachments/assets/1dd2a3d3-88ef-4441-8428-08b2194f5b3f" />
 
 ---
 
