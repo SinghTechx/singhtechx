@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "What Is Kubernetes? My Beginner Journey into K8s and Security"
 description: "A beginner-friendly introduction to Kubernetes (K8s). Learn what Kubernetes is, why it is used, and how I'm starting my journey into Kubernetes security and real-world remediations."
 excerpt_separator: "<!--more-->"
