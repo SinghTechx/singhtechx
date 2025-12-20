@@ -17,7 +17,7 @@ tags:
 
 ### What Is Kubernetes? My Journey from Zero Knowledge
 
-When I first start study Kubernetes (K8s), I have no knowledge what it is and what the use of it. I’m now fully digging deep into Kubernetes and learning it step by step. Through this blog series, I’ll keep sharing my progress around Kubernetes, its features, security issues, and most importantly, real-world remediations.
+When I first started studying Kubernetes (K8s), I have no knowledge what it is and what the use of it. I’m now fully digging deep into Kubernetes and learning it step by step. Through this blog series, I’ll keep sharing my progress around Kubernetes, its features, security issues, and most importantly, real-world remediations.
 
 This blog is written from a beginner’s point of view, especially for people who are new to Kubernetes and want to understand it in simple terms.
 
@@ -40,6 +40,7 @@ This is where Kubernetes becomes useful.
 Kubernetes is an open-source container orchestration platform used to deploy, manage, and scale containerised applications. Instead of manually managing servers and services, Kubernetes automates most operational tasks.
 
 You tell Kubernetes what you want, such as how many copies of your application should run, and Kubernetes ensures that state is always maintained. If a container crashes, it replaces it. If traffic increases, it scales the application. If a node fails, workloads are moved automatically.
+
 <img width="700" height="500" alt="image" class="center-image" src="https://github.com/user-attachments/assets/aa55edff-2312-4f49-8d48-b4d70ce04aca" />
 
 
