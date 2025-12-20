@@ -54,7 +54,7 @@ classes: wide
       </p>
       <!-- CTAs -->
       <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top: 6px;">
-        <a href="#projects" style="
+        <a href="https://github.com/unixsingh" style="
           padding: 8px 16px;
           border-radius: 999px;
           background: linear-gradient(135deg,#22c55e,#16a34a);
@@ -73,7 +73,7 @@ classes: wide
           text-decoration:none;
           backdrop-filter: blur(4px);
         ">See methodologies</a>
-        <a href="mailto:contact@UnixSingh.com" style="
+        <a href="https://www.linkedin.com/in/bikramjeetx/" style="
           padding: 8px 14px;
           border-radius: 999px;
           border:1px dashed rgba(96,165,250,0.7);
@@ -133,7 +133,7 @@ classes: wide
           <div style="font-size: 26px;">✍️</div>
           <div style="text-align:left;">
             <div style="font-size: 14px; font-weight:600; color:#93c5fd;">Writing</div>
-            <div style="font-size: 11.5px; color:#9ca3af;">Blogs, playbooks & test plans</div>
+            <div style="font-size: 11.5px; color:#9ca3af;">Blogs, Labs & test methodlogies</div>
           </div>
         </div>
         <!-- Card 3 -->
@@ -205,7 +205,6 @@ classes: wide
   <section id="projects" style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 10px;">Projects 🚀</h2>
     <p style="margin: 0 0 10px; font-size: 13.5px; color:#9ca3af;">
-      I build labs to practice full kill-chains, not just single vulnerabilities.
     </p>
     <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:6px;">
       <img src="https://img.shields.io/badge/Web%20Application%20Home%20Lab-8B0000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Application Home Lab" />
@@ -416,11 +415,7 @@ I focus on:
     <p style="margin:0 0 8px; font-size: 13px; color:#9ca3af;">
       If you like the labs, write-ups, or tooling I share, you can support here:
     </p>
-    <p>
-      <a href="https://buymeacoffee.com/thesinghsec">
-        <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-      </a>
-    </p>
+    
   </section>
 
 
@@ -444,5 +439,12 @@ I focus on:
     <p style="margin-top: 10px; font-size: 12px; color:#6b7280;">
       🌱 Constantly learning. Constantly breaking. Constantly improving.
     </p>
+    <p>
+      <a href="https://buymeacoffee.com/thesinghsec">
+        <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
+      </a>
+    </p>
   </section>
 </div>
+
+
