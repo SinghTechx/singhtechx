@@ -1,4 +1,4 @@
-<img width="1402" height="882" alt="image" src="https://github.com/user-attachments/assets/14655bd7-cf6b-480f-9181-342f70384b91" />---
+---
 title: "What Is Kubernetes? My Beginner Journey into K8s and Security"
 description: "A beginner-friendly introduction to Kubernetes (K8s). Learn what Kubernetes is, why it is used, and how I'm starting my journey into Kubernetes security and real-world remediations."
 author: Singh
