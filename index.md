@@ -286,12 +286,7 @@ classes: wide
     <h2 style="font-size: 20px; margin-bottom: 8px;">Knowledge ⚙️</h2>
     <p style="margin: 0 0 8px; font-size: 13.5px; color:#9ca3af;">
       
-Tools change. Understanding attacker behaviour does not.
-
-I focus on:
-- Enumeration depth over speed  
-- Chaining weaknesses into real compromise paths  
-- Clear reporting that developers and defenders can act on  
+Tools change. Understanding attacker behaviour does not. I focus on: Enumeration depth over speed, Chaining weaknesses into real compromise paths and Clear reporting that developers and defenders can act on.
     </p>
     <details style="
       border-radius: 14px;
