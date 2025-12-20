@@ -1,25 +1,59 @@
 ---
 ---
 @import "minimal-mistakes";
-/* Hacking green accent */
-$hacker-green: #00ff9c;
 
-/* Navigation links underline */
-.greedy-nav a::after {
-  background-color: $hacker-green;
+/* Global dark hacker background */
+body {
+  background-color: #050b0f;
+  color: #d0fbe8;
 }
 
-/* Active nav item */
-.greedy-nav .active a {
-  color: $hacker-green;
+/* Main content wrapper */
+.initial-content,
+.page,
+.page__content,
+.archive,
+.archive__item,
+.home {
+  background-color: transparent;
+}
+/* Header / nav bar */
+.masthead,
+.greedy-nav {
+  background-color: #050b0f;
+  border-bottom: 1px solid rgba(0, 255, 156, 0.15);
 }
 
-/* Search icon */
-.search__toggle {
-  color: $hacker-green;
+/* Site title */
+.site-title,
+.site-title:visited {
+  color: #00ff9c;
 }
 
-/* Hover states */
-.greedy-nav a:hover {
-  color: $hacker-green;
+/* Cards and boxed sections */
+.card,
+.archive__item,
+.notice,
+.sidebar,
+.author__content {
+  background-color: #0a141a;
+  border: 1px solid rgba(0, 255, 156, 0.15);
+}
+
+/* Sidebar text */
+.sidebar,
+.author__content p {
+  color: #c8f7e3;
+}
+
+a {
+  color: #00ff9c;
+}
+
+a:hover {
+  color: #00ffd5;
+}
+
+hr {
+  border-color: rgba(0, 255, 156, 0.2);
 }
