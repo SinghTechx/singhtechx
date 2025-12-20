@@ -15,7 +15,7 @@ tags:
   - cloud native
 ---
 
-
+---
 ### What Is Kubernetes? My Journey from Zero Knowledge
 
 When I first started studying Kubernetes (K8s), I have no knowledge what it is and what the use of it. I’m now fully digging deep into Kubernetes and learning it step by step. Through this blog series, I’ll keep sharing my progress around Kubernetes, its features, security issues, and most importantly, real-world remediations.
