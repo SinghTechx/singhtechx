@@ -1,0 +1,25 @@
+---
+---
+@import "minimal-mistakes";
+/* Hacking green accent */
+$hacker-green: #00ff9c;
+
+/* Navigation links underline */
+.greedy-nav a::after {
+  background-color: $hacker-green;
+}
+
+/* Active nav item */
+.greedy-nav .active a {
+  color: $hacker-green;
+}
+
+/* Search icon */
+.search__toggle {
+  color: $hacker-green;
+}
+
+/* Hover states */
+.greedy-nav a:hover {
+  color: $hacker-green;
+}
