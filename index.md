@@ -286,8 +286,13 @@ classes: wide
   <section id="knowledge_skills" style="margin-bottom: 26px;">
     <h2 style="font-size: 20px; margin-bottom: 8px;">Knowledge ⚙️</h2>
     <p style="margin: 0 0 8px; font-size: 13.5px; color:#9ca3af;">
-      Tooling changes, but the goal is the same: understand how a real attacker would pivot and persist,
-      then help you close the gaps.
+      
+Tools change. Understanding attacker behaviour does not.
+
+I focus on:
+- Enumeration depth over speed  
+- Chaining weaknesses into real compromise paths  
+- Clear reporting that developers and defenders can act on  
     </p>
     <details style="
       border-radius: 14px;
@@ -404,71 +409,6 @@ classes: wide
       <img src="https://img.shields.io/badge/-CASA-2E8B57?style=for-the-badge&logo=owasp&logoColor=white" alt="CASA" />
     </div>
   </section>
-
-
-  <!-- GITHUB STATS -->
-  <section id="github_stats" style="margin-bottom: 26px;">
-    <h2 style="font-size: 20px; margin-bottom: 10px;">GitHub Stats 👨‍💻</h2>
-    <style>
-      .gh-wrap {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-        align-items: stretch;
-      }
-      @media (max-width: 900px) {
-        .gh-wrap {
-          grid-template-columns: 1fr;
-        }
-      }
-      .gh-card, .gh-left-card {
-        background: none;
-        border: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 0;
-      }
-      .gh-left-card a img,
-      .gh-card img {
-        display: block;
-        width: 100%;
-        max-width: 480px;
-        height: auto;
-      }
-      .badge {
-        display:block;
-        height:28px;
-        filter: drop-shadow(0 0 1px rgba(255,255,255,0.15));
-        transition: filter 0.18s ease, transform 0.18s ease;
-      }
-      .badge:hover {
-        filter: drop-shadow(0 0 6px rgba(0,255,128,0.6));
-        transform: translateY(-2px);
-      }
-    </style>
-    <div class="gh-wrap">
-      <div class="gh-left-card">
-        <a href="https://github.com/thesinghsec/github-readme-stats">
-          <img
-            alt="UnixSingh's GitHub stats"
-            src="https://github-readme-stats.vercel.app/api?username=thesinghsec&theme=vision-friendly-dark&bg_color=00000000&hide_border=true&custom_title=UnixSingh%27s%20GitHub%20Stats"
-            loading="lazy">
-        </a>
-      </div>
-      <div class="gh-card">
-        <a href="https://git.io/streak-stats">
-          <img
-            alt="GitHub Streak"
-            src="https://streak-stats.demolab.com?user=thesinghsec&theme=burnt-neon&border_radius=5&fire=EBCA01&ring=FF5B5B&currStreakNum=66FF00&sideNums=66FF00&sideLabels=EBEBEB"
-            loading="lazy">
-        </a>
-      </div>
-    </div>
-  </section>
-
 
   <!-- SUPPORT -->
   <section id="donate" style="margin-bottom: 18px; text-align:center;">
