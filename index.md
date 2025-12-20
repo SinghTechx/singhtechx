@@ -443,4 +443,262 @@ Tools change. Understanding attacker behaviour does not. I focus on: Enumeration
   </section>
 </div>
 
+<style>
+  :root {
+    --neon-green: #00FF7F;      /* softer neon */
+    --neon-soft: #00FF7F99;
+    --bg-dark: #020617;
+    --bg-darker: #000000;
+    --border-neon: #00FF7F;
+  }
+
+  footer.hacker-footer {
+    background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
+    color: var(--neon-green);
+    padding: 16px 12px 18px;
+    border-top: 2px solid var(--border-neon);
+    box-shadow: 0 0 14px rgba(0, 255, 127, 0.45);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 "Fira Code", "Courier New", monospace;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  /* Status pill */
+  .footer-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 255, 127, 0.45);
+    background: rgba(3, 7, 18, 0.9);
+    box-shadow: 0 0 10px rgba(0, 255, 127, 0.25);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: var(--neon-green);
+    box-shadow: 0 0 8px var(--neon-green);
+    animation: pulseDot 1.8s ease-in-out infinite;
+  }
+
+  .status-label {
+    color: #e5ffe5;
+  }
+
+  .status-sub {
+    color: #a7f3cf;
+    opacity: 0.9;
+  }
+
+  /* Main row */
+  .footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  .copyright {
+    font-size: 13px;
+    color: #eaffea;
+    white-space: nowrap;
+  }
+
+  .copyright .brand {
+    font-weight: 600;
+    text-shadow: 0 0 6px var(--neon-green);
+  }
+
+  /* Blinking cursor */
+  .copyright::after {
+    content: '▌';
+    margin-left: 4px;
+    animation: blink 1s steps(1) infinite;
+  }
+
+  /* Neon links */
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .neon-link {
+    color: var(--neon-green);
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 11px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 255, 127, 0.35);
+    background: rgba(3, 7, 18, 0.9);
+    text-shadow: 0 0 3px var(--neon-green), 0 0 7px var(--neon-soft);
+    transition:
+      text-shadow 0.25s ease,
+      transform 0.25s ease,
+      border-color 0.25s ease,
+      box-shadow 0.25s ease,
+      background 0.25s ease;
+  }
+
+  .neon-link span.icon {
+    font-size: 14px;
+  }
+
+  .neon-link:hover {
+    text-shadow: 0 0 10px var(--neon-green), 0 0 18px var(--neon-soft);
+    transform: translateY(-1px) scale(1.04);
+    border-color: var(--neon-green);
+    box-shadow: 0 0 16px rgba(0, 255, 127, 0.6);
+    background: rgba(15, 23, 42, 0.96);
+  }
+
+  /* Bottom scan line */
+  .footer-scanline {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0,
+      rgba(0, 255, 127, 0.15) 25%,
+      rgba(0, 255, 127, 0.7) 50%,
+      rgba(0, 255, 127, 0.15) 75%,
+      transparent 100%
+    );
+    opacity: 0.85;
+    animation: scan 4s linear infinite;
+  }
+
+  .neon-text {
+    font-size: 1.02em;
+    text-shadow: 0 0 8px var(--neon-green), 0 0 16px var(--neon-soft);
+    animation: glitch 2.4s infinite;
+  }
+
+  /* Animations */
+  @keyframes glitch {
+    0%, 100% {
+      text-shadow: 0 0 6px var(--neon-green), 0 0 12px var(--neon-soft);
+      transform: translate(0, 0);
+    }
+    18% {
+      text-shadow: 2px 0 6px var(--neon-green), -2px 0 6px var(--neon-soft);
+      transform: translate(-1px, 0);
+    }
+    32% {
+      text-shadow: -2px 0 6px var(--neon-green), 2px 0 6px var(--neon-soft);
+      transform: translate(1px, 0);
+    }
+    60% {
+      text-shadow: 0 0 7px var(--neon-green), 0 0 14px var(--neon-soft);
+      transform: translate(0, 0);
+    }
+  }
+
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  @keyframes pulseDot {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 8px rgba(0, 255, 127, 0.9);
+    }
+    50% {
+      transform: scale(1.16);
+      box-shadow: 0 0 14px rgba(0, 255, 127, 1);
+    }
+  }
+
+  @keyframes scan {
+    0% { transform: translateX(-40%); opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { transform: translateX(40%); opacity: 0.4; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .neon-text,
+    .copyright::after,
+    .status-dot,
+    .footer-scanline {
+      animation: none !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-main {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .copyright {
+      white-space: normal;
+    }
+
+    .footer-links {
+      justify-content: center;
+    }
+  }
+  /* Hide Jekyll / theme meta footer if present */
+  footer.page__meta {
+    display: none !important;
+  }
+</style>
+
+<footer class="hacker-footer">
+  <div class="footer-inner">
+    <!-- Status pill -->
+    <div class="footer-status">
+      <span class="status-dot"></span>
+      <span class="status-label">HACKER VIBE ONLINE</span>
+      <span class="status-sub">signal: strong</span>
+    </div>
+    <!-- Main row -->
+    <div class="footer-main">
+      <p class="copyright">
+        <span class="neon-text">©2026</span>
+        <span class="brand">Inside UnixSingh</span>
+      </p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/bikramjeetx/" class="neon-link" target="_blank" rel="noreferrer">
+          <span class="icon">💼</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/unixsingh" class="neon-link" target="_blank" rel="noreferrer">
+          <span class="icon">🐱</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-scanline" aria-hidden="true"></div>
+  </div>
+</footer>
 
