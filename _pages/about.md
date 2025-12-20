@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /
 classes: wide
 title: "About"
 ---
