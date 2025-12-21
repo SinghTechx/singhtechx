@@ -5,7 +5,7 @@ description: "A beginner-friendly introduction to Kubernetes (K8s). Learn what K
 excerpt_separator: "<!--more-->"
 classes: wide
 categories:
-  - Kubernetes
+  - Kubernetes Journey
 tags:
   - kubernetes
   - k8s
