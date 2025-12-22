@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Day-2: Understanding How Kubernetes Works"
 description: "Before diving into Kubernetes security issues, it is essential to understand how Kubernetes works from a developer’s perspective. This post explains Kubernetes architecture, workflow, and core components in a simple and practical way."
 excerpt_separator: "<!--more-->"
