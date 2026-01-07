@@ -119,7 +119,7 @@ kubectl get nodes -o custom-columns=NAME:.metadata.name,OS_IMAGE:.status.nodeInf
 ```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/1bddca59-f97b-4636-afb4-a9d2c3c63086" />
 
-#### Why This Matters for Security Testing:
+##### Why This Matters for Security Testing:
 
 From a Kubernetes security testing perspective, this information is critical:
 - Outdated kernels may expose privilege escalation vulnerabilities
