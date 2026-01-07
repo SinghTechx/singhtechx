@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Day 3: Practical Understanding of Kubernetes Nodes, Workloads, and the Foundations"
+title: "Day-3: Practical Understanding of Kubernetes Nodes, Workloads, and the Foundations"
 description: "A clear introduction to Kubernetes nodes and workloads, with a practical look at how these core components shape effective security testing from the ground up."
 excerpt_separator: "<!--more-->"
 classes: wide
